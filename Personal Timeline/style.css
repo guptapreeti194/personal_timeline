@@ -1,0 +1,27 @@
+<style>
+    @media print {
+        /* Hide the print button */
+        button {
+            display: none;
+        }
+
+        /* Ensure full width for printed sections */
+        main {
+            padding: 0;
+        }
+
+        /* Remove shadows for cleaner printing */
+        section {
+            box-shadow: none;
+            border-left: 2px solid #4CAF50;
+        }
+
+        /* Optimize footer appearance for print */
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            font-size: 12px;
+            color: #666;
+        }
+    }
+</style>
